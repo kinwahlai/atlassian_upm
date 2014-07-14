@@ -1,3 +1,3 @@
 
 
-require_relative "../lib/upm.rb"
+require_relative "../lib/atlassian_upm.rb"
