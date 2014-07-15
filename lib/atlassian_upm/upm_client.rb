@@ -11,6 +11,6 @@ class UPMClient
   end
 
   def uploadPlugin(filename)
-    @rest_client.post({:plugin => File.new(filename), :multipart => true}, {:token => token()})
+    @rest_client.post({:plugin => File.new(filename), :multipart => true},:params => {:token => token()})
   end
 end
